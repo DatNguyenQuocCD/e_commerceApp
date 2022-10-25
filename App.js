@@ -1,13 +1,14 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import TypeInput from "./src/components/atoms/Input/TypeInput";
-import TextName from "./src/components/atoms/text/TextName";
+import Login from "./src/screen/login/Login";
 
 export default function App() {
   return (
     <View style={styles.body}>
-      <TextName text={"Chúng Em Yêu Cô Nhài"} />
-      <TypeInput placeholder={"Name"} />
+      {/* <TextName text={"Chúng Em Yêu Cô Nhài"} />
+      <Input label={"Name"} placeholder={"User name"} nameIcon={"user"} colorIcon={"black"} />
+      <BigButton /> */}
+      <Login/>
     </View>
   )
 }
